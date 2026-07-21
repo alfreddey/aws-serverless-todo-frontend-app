@@ -64,7 +64,7 @@ function TodoApp({ signOut, user }) {
 
 export default function App() {
   return (
-    <Authenticator>
+    <Authenticator loginMechanisms={["email"]}>
       {({ signOut, user }) => <TodoApp signOut={signOut} user={user} />}
     </Authenticator>
   );
