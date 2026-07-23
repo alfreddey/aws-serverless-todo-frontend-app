@@ -43,7 +43,7 @@ function TodoApp({ signOut, user }) {
   return (
     <div className="app">
       <header>
-        <h1>My Tasks V2</h1>
+        <h1>My Tasks V3</h1>
         <div>
           <span>{user?.signInDetails?.loginId}</span>
           <button onClick={signOut}>Sign out</button>
